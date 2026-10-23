@@ -1,0 +1,6 @@
+interface:
+  display_name: "Company Code Evidence"
+  short_description: "用最小改动、证据核验和Git恢复支持可追溯开发，按需结合诊断、TDD与评审"
+  default_prompt: "请使用 $company-code-evidence 完成本次工程任务：明确验收和修改范围，保留原始证据及失败转向，验证Git存档与恢复，按当前授权衔接诊断、TDD、评审和协作。"
+policy:
+  allow_implicit_invocation: true
